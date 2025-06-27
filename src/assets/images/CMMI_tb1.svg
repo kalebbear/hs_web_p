@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 400">
+  <!-- 背景 -->
+  <rect width="380" height="400" fill="white"/>
+  
+  <!-- X轴和Y轴 -->
+  <line x1="50" y1="350" x2="350" y2="350" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="350" x2="50" y2="50" stroke="black" stroke-width="2"/>
+  
+  <!-- Y轴刻度 -->
+  <line x1="45" y1="350" x2="50" y2="350" stroke="black" stroke-width="2"/>
+  <text x="40" y="355" font-family="Arial, sans-serif" font-size="12" text-anchor="end">0</text>
+  
+  <line x1="45" y1="300" x2="50" y2="300" stroke="black" stroke-width="2"/>
+  <text x="40" y="305" font-family="Arial, sans-serif" font-size="12" text-anchor="end">500</text>
+  
+  <line x1="45" y1="250" x2="50" y2="250" stroke="black" stroke-width="2"/>
+  <text x="40" y="255" font-family="Arial, sans-serif" font-size="12" text-anchor="end">1000</text>
+  
+  <line x1="45" y1="200" x2="50" y2="200" stroke="black" stroke-width="2"/>
+  <text x="40" y="205" font-family="Arial, sans-serif" font-size="12" text-anchor="end">1500</text>
+  
+  <line x1="45" y1="150" x2="50" y2="150" stroke="black" stroke-width="2"/>
+  <text x="40" y="155" font-family="Arial, sans-serif" font-size="12" text-anchor="end">2000</text>
+  
+  <line x1="45" y1="100" x2="50" y2="100" stroke="black" stroke-width="2"/>
+  <text x="40" y="105" font-family="Arial, sans-serif" font-size="12" text-anchor="end">2500</text>
+  
+  <line x1="45" y1="50" x2="50" y2="50" stroke="black" stroke-width="2"/>
+  <text x="40" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="end">3000</text>
+  
+  <!-- 柱状图 -->
+  <!-- 二级：0 -->
+  <rect x="80" y="350" width="40" height="0" fill="#007dc6"/>
+  <text x="100" y="370" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">二级</text>
+  <text x="100" y="345" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">0</text>
+  
+  <!-- 三级：2840 -->
+  <rect x="160" y="66.33" width="40" height="283.67" fill="#007dc6"/>
+  <text x="180" y="370" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">三级</text>
+  <text x="180" y="61.33" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">2840</text>
+  
+  <!-- 四级：5 -->
+  <rect x="240" y="349.17" width="40" height="0.83" fill="#007dc6"/>
+  <text x="260" y="370" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">四级</text>
+  <text x="260" y="344.17" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">5</text>
+  
+  <!-- 五级：918 -->
+  <rect x="320" y="196.67" width="40" height="153.33" fill="#007dc6"/>
+  <text x="340" y="370" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">五级</text>
+  <text x="340" y="191.67" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">918</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 380">
+  <!-- 背景 -->
+  <rect width="630" height="380" fill="#ffffff" />
+  
+  <!-- 定义渐变色 -->
+  <defs>
+    <linearGradient id="barGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#007dc6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0099f7;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 坐标轴 -->
+  <line x1="80" y1="320" x2="580" y2="320" stroke="#333333" stroke-width="2" />
+  <line x1="80" y1="320" x2="80" y2="40" stroke="#333333" stroke-width="2" />
+  
+  <!-- 柱状图 -->
+  <rect x="120" y="320" width="60" height="0" fill="url(#barGradient)">
+    <animate attributeName="height" from="0" to="0" dur="1s" fill="freeze" />
+    <animate attributeName="y" from="320" to="320" dur="1s" fill="freeze" />
+  </rect>
+  
+  <rect x="200" y="320" width="60" height="0" fill="url(#barGradient)">
+    <animate attributeName="height" from="0" to="3" dur="1s" fill="freeze" />
+    <animate attributeName="y" from="320" to="317" dur="1s" fill="freeze" />
+  </rect>
+  
+  <rect x="280" y="320" width="60" height="0" fill="url(#barGradient)">
+    <animate attributeName="height" from="0" to="240" dur="1s" fill="freeze" />
+    <animate attributeName="y" from="320" to="80" dur="1s" fill="freeze" />
+  </rect>
+  
+  <rect x="360" y="320" width="60" height="0" fill="url(#barGradient)">
+    <animate attributeName="height" from="0" to="8" dur="1s" fill="freeze" />
+    <animate attributeName="y" from="320" to="312" dur="1s" fill="freeze" />
+  </rect>
+  
+  <rect x="440" y="320" width="60" height="0" fill="url(#barGradient)">
+    <animate attributeName="height" from="0" to="64" dur="1s" fill="freeze" />
+    <animate attributeName="y" from="320" to="256" dur="1s" fill="freeze" />
+  </rect>
+  
+  <!-- 数据标签 -->
+  <text x="150" y="335" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">一级</text>
+  <text x="230" y="335" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">二级</text>
+  <text x="310" y="335" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">三级</text>
+  <text x="390" y="335" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">四级</text>
+  <text x="470" y="335" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">五级</text>
+  
+  <!-- 数值标签 -->
+  <text x="150" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">0</text>
+  <text x="230" y="312" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">10</text>
+  <text x="310" y="75" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">8948</text>
+  <text x="390" y="307" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">31</text>
+  <text x="470" y="251" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">2402</text>
+  
+  <!-- Y轴刻度 -->
+  <line x1="78" y1="320" x2="82" y2="320" stroke="#333333" stroke-width="1" />
+  <text x="70" y="324" font-family="Arial" font-size="12" text-anchor="end" fill="#333333">0</text>
+  
+  <line x1="78" y1="240" x2="82" y2="240" stroke="#333333" stroke-width="1" />
+  <text x="70" y="244" font-family="Arial" font-size="12" text-anchor="end" fill="#333333">2000</text>
+  
+  <line x1="78" y1="160" x2="82" y2="160" stroke="#333333" stroke-width="1" />
+  <text x="70" y="164" font-family="Arial" font-size="12" text-anchor="end" fill="#333333">4000</text>
+  
+  <line x1="78" y1="80" x2="82" y2="80" stroke="#333333" stroke-width="1" />
+  <text x="70" y="84" font-family="Arial" font-size="12" text-anchor="end" fill="#333333">6000</text>
+  
+  <line x1="78" y1="40" x2="82" y2="40" stroke="#333333" stroke-width="1" />
+  <text x="70" y="44" font-family="Arial" font-size="12" text-anchor="end" fill="#333333">8000</text>
+  
+  <!-- Y轴标签 -->
+  <text x="40" y="180" font-family="Arial" font-size="14" fill="#333333" transform="rotate(-90, 40, 180)">认证数量</text>
+  
+  <!-- 细网格线 -->
+  <line x1="80" y1="240" x2="580" y2="240" stroke="#dddddd" stroke-width="1" stroke-dasharray="3,3" />
+  <line x1="80" y1="160" x2="580" y2="160" stroke="#dddddd" stroke-width="1" stroke-dasharray="3,3" />
+  <line x1="80" y1="80" x2="580" y2="80" stroke="#dddddd" stroke-width="1" stroke-dasharray="3,3" />
+</svg>
